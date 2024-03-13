@@ -143,6 +143,7 @@ func initCommands() {
 		inspectCmd,
 		whoamiCmd,
 		openCmd,
+		queryCmd,
 	}
 	for _, cmd := range commands {
 		cmd.Flags().SortFlags = false
